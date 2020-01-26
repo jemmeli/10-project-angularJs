@@ -1,0 +1,47 @@
+>>npm install -g express
+>>npm install -g express-generator
+>>express nom_du_projet
+
+#in package.json add folwoing
+"mongodb":"*",
+"mongoose":"*",
+
+>>npm install
+
+#open app.js and add
+var mongo = require('mongodb');
+var mongoose = require('mongoose');
+var db = mongoose.connection;
+mongoose.connect('mongodb://localhost/knowledgebase');
+
+https://www.youtube.com/watch?v=FwMwO8pXfq0
+
+>>mongo
+>>use knowledgebase
+>>db.createCollection('articles');
+>>db.article.remove();
+>>db.categories.insert({name:'technology'});
+>>db.categories.find()
+
+###RUN###
+>>npm start
+#localhost:3000
+
+#create mongoose model
+#create folder /models
+
+#after creating routes & models
+#create /public/inde.html
+
+>>npm install -g bower
+>>bower install angular
+>>bower install angular-route
+>>bower install bootstrap
+
+#create /controllers/articles.controllers.js
+#create /controllers/categories.controllers.js
+
+#Uninstall bower package
+>>bower uninstall PACKAGENAME --save
+>>bower install bootstrap#3.3.7 --save
+

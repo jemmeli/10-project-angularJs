@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="en" ng-app="computer">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="canonical" href="https://getbootstrap.com/docs/3.3/examples/justified-nav/">
+
+  <title>Computer Solutions</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="style.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+  <div class="container">
+
+      <!-- The justified navigation menu is meant for single line per list item.
+       Multiple lines will require custom code not provided by Bootstrap. -->
+       <div class="masthead">
+        <h3 class="text-muted">Computer Solution</h3>
+        <nav>
+          <ul class="nav nav-justified">
+            <li><a href="#/main">Home</a></li> 
+            <li><a href="#/about">About</a></li>
+            <li><a href="#/services">Services</a></li>
+            <li><a href="#/contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div ng-controller="MainCtrl">
+        <div ng-view></div>
+      </div>
+
+      <!-- Site footer -->
+      <footer class="footer">
+        <p>&copy; 2016 Company, Inc.</p>
+      </footer>
+
+    </div> <!-- /container -->
+
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+     <script src="https://code.angularjs.org/1.7.9/angular.js"></script>
+     <script src="https://code.angularjs.org/1.7.9/angular-route.js"></script>
+     <script src="script.js"></script>
+
+  
+
+
+
+
+    
+  </body>
+  </html>

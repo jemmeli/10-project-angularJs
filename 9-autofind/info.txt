@@ -1,0 +1,11 @@
+>>npm install -g bower
+>>npm install -g grunt-cli
+
+#download mean.js and put all it's content into project folder
+
+>>cd folder project
+>>npm install
+
+#\config\env and change the name of your mongodb name
+
+>>grunt
